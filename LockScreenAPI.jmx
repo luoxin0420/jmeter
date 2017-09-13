@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="3.2" jmeter="3.2 r1790748">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath">E:\workspace\extlib.jar</stringProp>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">1438064469000</longProp>
+        <longProp name="ThreadGroup.end_time">1438064469000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <ResultCollector guiclass="TableVisualizer" testclass="ResultCollector" testname="View Results in Table" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <url>true</url>
+              <fileName>true</fileName>
+              <hostname>true</hostname>
+              <threadCounts>true</threadCounts>
+              <sampleCount>true</sampleCount>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <objProp>
+            <name></name>
+            <value class="SampleSaveConfiguration">
+              <time>false</time>
+              <latency>false</latency>
+              <timestamp>false</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>false</dataType>
+              <encoding>false</encoding>
+              <assertions>false</assertions>
+              <subresults>false</subresults>
+              <responseData>true</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <url>true</url>
+              <fileName>true</fileName>
+              <hostname>true</hostname>
+              <threadCounts>true</threadCounts>
+              <sampleCount>true</sampleCount>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <url>true</url>
+              <fileName>true</fileName>
+              <hostname>true</hostname>
+              <threadCounts>true</threadCounts>
+              <sampleCount>true</sampleCount>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <objProp>
+            <name></name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <url>true</url>
+              <fileName>true</fileName>
+              <hostname>true</hostname>
+              <threadCounts>true</threadCounts>
+              <sampleCount>true</sampleCount>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename">../../testdata/log10.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="Result Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <url>true</url>
+              <fileName>true</fileName>
+              <hostname>true</hostname>
+              <threadCounts>true</threadCounts>
+              <sampleCount>true</sampleCount>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="Log Errors Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">true</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <url>true</url>
+              <fileName>true</fileName>
+              <hostname>true</hostname>
+              <threadCounts>true</threadCounts>
+              <sampleCount>true</sampleCount>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <objProp>
+            <name></name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <url>true</url>
+              <fileName>true</fileName>
+              <hostname>true</hostname>
+              <threadCounts>true</threadCounts>
+              <sampleCount>true</sampleCount>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="TestPlan.comments">This logs the errors to a log file</stringProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="Server" elementType="Argument">
+              <stringProp name="Argument.name">Server</stringProp>
+              <stringProp name="Argument.value"></stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="Platform" elementType="Argument">
+              <stringProp name="Argument.name">Platform</stringProp>
+              <stringProp name="Argument.value">a</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="APKVer" elementType="Argument">
+              <stringProp name="Argument.name">APKVer</stringProp>
+              <stringProp name="Argument.value">5.171</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="FrontendVer" elementType="Argument">
+              <stringProp name="Argument.name">FrontendVer</stringProp>
+              <stringProp name="Argument.value">5</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="ProductName" elementType="Argument">
+              <stringProp name="Argument.name">ProductName</stringProp>
+              <stringProp name="Argument.value">android-transsion-wallpaper</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="TimeStamp" elementType="Argument">
+              <stringProp name="Argument.name">TimeStamp</stringProp>
+              <stringProp name="Argument.value"></stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="URLCount" elementType="Argument">
+              <stringProp name="Argument.name">URLCount</stringProp>
+              <stringProp name="Argument.value"></stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="URLs" elementType="Argument">
+              <stringProp name="Argument.name">URLs</stringProp>
+              <stringProp name="Argument.value"></stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="Body" elementType="Argument">
+              <stringProp name="Argument.name">Body</stringProp>
+              <stringProp name="Argument.value"></stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="Loop" elementType="Argument">
+              <stringProp name="Argument.name">Loop</stringProp>
+              <stringProp name="Argument.value">0</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="sid" elementType="Argument">
+              <stringProp name="Argument.name">sid</stringProp>
+              <stringProp name="Argument.value"></stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="StartFlag" elementType="Argument">
+              <stringProp name="Argument.name">StartFlag</stringProp>
+              <stringProp name="Argument.value">False</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="uid" elementType="Argument">
+              <stringProp name="Argument.name">uid</stringProp>
+              <stringProp name="Argument.value"></stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="password" elementType="Argument">
+              <stringProp name="Argument.name">password</stringProp>
+              <stringProp name="Argument.value"></stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </Arguments>
+        <hashTree/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="初始环境：(登录)" enabled="true"/>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get All urls" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value"></stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/front/address.api?uid=null&amp;p=a&amp;v=2&amp;sv=null&amp;az=andorid-2.1-wallpaper</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="HTTP Request Defaults" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">stage.3gmimo.com</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">http</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path"></stringProp>
+              <stringProp name="HTTPSampler.concurrentPool">4</stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </ConfigTestElement>
+            <hashTree/>
+            <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="Get urls string" enabled="true">
+              <stringProp name="filename"></stringProp>
+              <stringProp name="parameters"></stringProp>
+              <boolProp name="resetInterpreter">false</boolProp>
+              <stringProp name="script">import org.json.*;
+import java.util.Arrays;
+
+String jsonString = prev.getResponseDataAsString();
+JSONObject responseJSON = new JSONObject(jsonString);
+JSONObject data = responseJSON.getJSONObject(&quot;server&quot;);
+String url = &quot;&quot;;
+try
+{
+	JSONArray addlist = data.getJSONArray(&quot;address&quot;);
+	for (int i = 0; i &lt; addlist.length(); i++) {
+		url = url + addlist.getString(i) + &quot;;&quot;;	
+	}
+	System.out.println(url);
+	vars.put(&quot;URLs&quot;,url);
+	vars.put(&quot;URLCount&quot;,String.valueOf(addlist.length()));
+	
+}
+catch (Exception e){
+	System.out.println(&quot;Exception:&quot; + e);
+	
+}
+
+String headers = prev.getResponseHeaders();
+String sign  = headers.split(&quot;sign:&quot;)[1];
+System.out.println(sign);
+
+
+
+</stringProp>
+            </BeanShellPostProcessor>
+            <hashTree/>
+          </hashTree>
+          <WhileController guiclass="WhileControllerGui" testclass="WhileController" testname="Try Connect to Server(Loop)" enabled="true">
+            <stringProp name="WhileController.condition">${__javaScript(&quot;${URLCount}&quot;!=&quot;0&quot;)}</stringProp>
+          </WhileController>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Default Server Address(Stream Request)" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value"></stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain"></stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">?p=${Platform}&amp;v=${FrontendVer}&amp;c=g&amp;st=${TimeStamp}&amp;sv=${APKVer}&amp;az=${ProductName}</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Request Header" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">platform</stringProp>
+                    <stringProp name="Header.value">android</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Content-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Content-Type</stringProp>
+                    <stringProp name="Header.value">x-application/x-gzip</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+              <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="HTTP Request Defaults" enabled="true">
+                <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+                  <collectionProp name="Arguments.arguments"/>
+                </elementProp>
+                <stringProp name="HTTPSampler.domain">${Server}</stringProp>
+                <stringProp name="HTTPSampler.port"></stringProp>
+                <stringProp name="HTTPSampler.protocol"></stringProp>
+                <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+                <stringProp name="HTTPSampler.path"></stringProp>
+                <stringProp name="HTTPSampler.concurrentPool">4</stringProp>
+                <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+                <stringProp name="HTTPSampler.response_timeout"></stringProp>
+              </ConfigTestElement>
+              <hashTree/>
+              <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="Set parameter values" enabled="true">
+                <boolProp name="resetInterpreter">false</boolProp>
+                <stringProp name="parameters"></stringProp>
+                <stringProp name="filename"></stringProp>
+                <stringProp name="script">String urls = vars.get(&quot;URLs&quot;);
+String[] url_list = urls.split(&quot;;&quot;);
+String loop = vars.get(&quot;Loop&quot;);
+int index = Integer.parseInt(loop);
+
+if (url_list.length &gt; 0) {
+	vars.put(&quot;Server&quot;, url_list[index].substring(7,url_list[0].length() - 1));
+	index += 1;
+	vars.put(&quot;Loop&quot;,String.valueOf(index));
+}
+
+// get value of parameter
+import jmeter_extlib.ExtLibrary;
+String now = new ExtLibrary().dateNowStr();
+String temp = &quot;pqrs-client-&quot; + &quot;android&quot; + &quot;-&quot; + now;
+//System.out.println(temp);
+String st = new ExtLibrary().stringToMd5(temp);
+//System.out.println(st);
+vars.put(&quot;TimeStamp&quot;,st);
+
+//zip body
+import jmeter_extlib.GZipCoder;
+String xml =  &quot;&lt;body rid=\&quot;1\&quot; count=\&quot;1\&quot; wait=\&quot;2\&quot; hold=\&quot;1\&quot; alive=\&quot;120\&quot;&gt;&lt;stream:stream xmlns=\&quot;jabber:client\&quot; xmlns:stream=\&quot;http://etherx.jabber.org/streams\&quot; version=\&quot;1.0\&quot; /&gt;&lt;/body&gt;&quot;;
+
+byte[] body = new GZipCoder().encode2(xml);
+
+//System.out.println(xml);
+//System.out.println(body);
+//vars.put(&quot;Body&quot;,new String(body));
+
+sampler.getArguments().getArgument(0).setValue(new String(body, 0));
+</stringProp>
+              </BeanShellPreProcessor>
+              <hashTree/>
+              <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="If request is ok, then exit loop.(get default server address)" enabled="true">
+                <boolProp name="resetInterpreter">false</boolProp>
+                <stringProp name="parameters"></stringProp>
+                <stringProp name="filename"></stringProp>
+                <stringProp name="script">import jmeter_extlib.GZipCoder;
+import jmeter_extlib.ExtLibrary;
+
+
+String status_code = prev.getResponseCode();
+//System.out.println(status_code);
+
+if (status_code.equals(&quot;206&quot;))
+{
+	vars.put(&quot;URLCount&quot;,&quot;0&quot;);
+	byte[] bodyArray = prev.getResponseData();
+	//System.out.println(bodyArray);
+	String bodyString = new GZipCoder().decode2(bodyArray);
+	//System.out.println(bodyString);
+	// get session id
+	String sid = new ExtLibrary().domFromString(bodyString,&quot;body&quot;,&quot;sid&quot;);
+	System.out.println(sid);
+	vars.put(&quot;sid&quot;,String.valueOf(sid));
+	vars.put(&quot;StartFlag&quot;,&quot;True&quot;);
+}
+else{
+	String cur_count = vars.get(&quot;URLCount&quot;);
+	int count = Integer.parseInt(cur_count) - 1;
+	System.out.println(count);
+	// set new value for URLCount
+	vars.put(&quot;URLCount&quot;,String.valueOf(count));
+}	
+
+
+</stringProp>
+              </BeanShellPostProcessor>
+              <hashTree/>
+            </hashTree>
+            <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="${URLCount}" enabled="true">
+              <boolProp name="displayJMeterProperties">false</boolProp>
+              <boolProp name="displayJMeterVariables">true</boolProp>
+              <boolProp name="displaySystemProperties">false</boolProp>
+            </DebugSampler>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="开始测试" enabled="true">
+          <stringProp name="IfController.condition">&quot;${StartFlag}&quot; == &quot;True&quot;</stringProp>
+          <boolProp name="IfController.evaluateAll">false</boolProp>
+        </IfController>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Request Header" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">platform</stringProp>
+                <stringProp name="Header.value">android</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Encoding</stringProp>
+                <stringProp name="Header.value">gzip</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept-Encoding</stringProp>
+                <stringProp name="Header.value">gzip</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">x-application/x-gzip</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="HTTP Request Defaults" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${Server}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path"></stringProp>
+            <stringProp name="HTTPSampler.concurrentPool">4</stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </ConfigTestElement>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Register" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value"></stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">?p=${Platform}&amp;v=${FrontendVer}&amp;c=g&amp;st=${TimeStamp}&amp;sv=${APKVer}&amp;az=${ProductName}&amp;sid=${sid}</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="Set parameter values" enabled="true">
+              <boolProp name="resetInterpreter">false</boolProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="script">//zip body
+import jmeter_extlib.GZipCoder;
+String sid = vars.get(&quot;sid&quot;);
+String to = vars.get(&quot;sid&quot;).split(&quot;@&quot;)[1];
+System.out.println(to);
+String xml = &quot;&lt;body rid=\&quot;2\&quot; count=\&quot;1\&quot; wait=\&quot;2\&quot; sid=\&quot;#REPLACESID#\&quot;&gt; &lt;iq to=\&quot;#REPLACETO#\&quot; id=\&quot;c1dcaf3b6b6f383\&quot; type=\&quot;get\&quot;&gt; &lt;query xmlns=\&quot;http://jabber.com/features/iq-query/jabber:iq:register\&quot;&gt; &lt;resource&gt;android-2.1-pet&lt;/resource&gt; &lt;platform version=\&quot;5.1.1\&quot;&gt;android&lt;/platform&gt; &lt;product soft=\&quot;5.197\&quot; micro=\&quot;5\&quot;&gt;android-vivo-wallpaper&lt;/product&gt; &lt;plugin&gt; &lt;item protocol=\&quot;com.vlife.plugin.module\&quot; version=\&quot;811\&quot; /&gt; &lt;item protocol=\&quot;com.vlife.plugin.card.andro\&quot; version=\&quot;110\&quot; /&gt; &lt;item protocol=\&quot;com.vlife.plugin.card.engine\&quot; version=\&quot;110\&quot; /&gt; &lt;/plugin&gt; &lt;plugin_version&gt;110&lt;/plugin_version&gt; &lt;promotion&gt;1506&lt;/promotion&gt; &lt;android_id&gt;526eff2f4c9dcfe9&lt;/android_id&gt; &lt;mnc&gt;00&lt;/mnc&gt; &lt;mcc&gt;460&lt;/mcc&gt; &lt;timezone&gt;Asia/Shanghai&lt;/timezone&gt; &lt;language&gt;zh_CN&lt;/language&gt; &lt;protocol&gt;com.vlife.vivo.wallpaper&lt;/protocol&gt; &lt;paper_id&gt;465&lt;/paper_id&gt; &lt;network_type&gt;13&lt;/network_type&gt; &lt;screen_width&gt;1080&lt;/screen_width&gt; &lt;screen_height&gt;1920&lt;/screen_height&gt; &lt;lockscreen_id&gt;465&lt;/lockscreen_id&gt; &lt;wallpaper_id&gt;0&lt;/wallpaper_id&gt; &lt;background&gt;true&lt;/background&gt; &lt;mac&gt;unknown&lt;/mac&gt; &lt;device&gt;PD1603&lt;/device&gt; &lt;brand&gt;vivo&lt;/brand&gt; &lt;board&gt;msm8952&lt;/board&gt; &lt;display&gt;LMY47V release-keys&lt;/display&gt; &lt;system_id&gt;LMY47V&lt;/system_id&gt; &lt;incremental&gt;eng.compiler.20170717.212438&lt;/incremental&gt; &lt;manufacturer&gt;vivo&lt;/manufacturer&gt; &lt;model&gt;vivo X7Plus&lt;/model&gt; &lt;system_product&gt;PD1603&lt;/system_product&gt; &lt;release&gt;5.1.1&lt;/release&gt; &lt;sdk_int&gt;22&lt;/sdk_int&gt; &lt;user&gt;compiler&lt;/user&gt; &lt;finger_print&gt;vivo/PD1603/PD1603:5.1.1/LMY47V/compiler07172128:user/release-keys&lt;/finger_print&gt; &lt;manufacturer&gt;vivo&lt;/manufacturer&gt; &lt;tags&gt;release-keys&lt;/tags&gt; &lt;type&gt;user&lt;/type&gt; &lt;serial&gt;27dbfc21&lt;/serial&gt; &lt;elapsed_realtime&gt;391980801&lt;/elapsed_realtime&gt; &lt;apk_path&gt;/system/app/VLife_vivo/VLife_vivo.apk&lt;/apk_path&gt; &lt;ssid&gt;&amp;lt;unknown ssid&amp;gt;&lt;/ssid&gt; &lt;network_operator_name&gt;CMCC&lt;/network_operator_name&gt; &lt;sim_operator&gt;46002&lt;/sim_operator&gt; &lt;sim_state&gt;5&lt;/sim_state&gt; &lt;ipv6_address&gt;/oAAAAAAAADuM2Xmpr1hxw==&lt;/ipv6_address&gt; &lt;ipv6_address&gt;/oAAAAAAAAC+TPlEjVMhPA==&lt;/ipv6_address&gt; &lt;display_metrics&gt;DisplayMetrics{density=3.0, width=1080, height=1920, scaledDensity=3.0, xdpi=386.366, ydpi=387.047}&lt;/display_metrics&gt; &lt;/query&gt; &lt;/iq&gt; &lt;/body&gt;&quot;;
+
+String newxml = xml.replace(&quot;#REPLACESID#&quot;,sid);
+newxml = newxml.replace(&quot;#REPLACETO#&quot;,to);
+System.out.println(newxml);
+
+byte[] body = new GZipCoder().encode2(newxml);
+System.out.println(body);
+
+sampler.getArguments().getArgument(0).setValue(new String(body, 0));
+</stringProp>
+            </BeanShellPreProcessor>
+            <hashTree/>
+            <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="Verify Uid" enabled="true">
+              <stringProp name="BeanShellAssertion.query">import jmeter_extlib.GZipCoder;
+import jmeter_extlib.ExtLibrary;
+
+String uid = &quot;&quot;;
+String passwd = &quot;&quot;;
+String status_code = prev.getResponseCode();
+//System.out.println(status_code);
+
+
+byte[] bodyArray = prev.getResponseData();
+String bodyString = new GZipCoder().decode2(bodyArray);
+System.out.println(bodyString);
+
+uid = new ExtLibrary().domFromString(bodyString,&quot;uid&quot;,&quot;&quot;);
+System.out.println(uid);
+passwd = new ExtLibrary().domFromString(bodyString,&quot;password&quot;,&quot;&quot;);
+System.out.println(passwd);
+
+vars.put(&quot;uid&quot;,uid);
+vars.put(&quot;password&quot;,passwd);
+
+
+if (uid.length() == 0)
+{                       
+	Failure = true;
+	FailureMessage = &quot;uid value is empty&quot;;
+}</stringProp>
+              <stringProp name="BeanShellAssertion.filename"></stringProp>
+              <stringProp name="BeanShellAssertion.parameters"></stringProp>
+              <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+            </BeanShellAssertion>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value"></stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">?p=${Platform}&amp;v=${FrontendVer}&amp;c=g&amp;st=${TimeStamp}&amp;sv=${APKVer}&amp;az=${ProductName}&amp;sid=${sid}</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="Set parameter values" enabled="true">
+              <boolProp name="resetInterpreter">false</boolProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="script">//zip body
+import jmeter_extlib.GZipCoder;
+String sid = vars.get(&quot;sid&quot;);
+String to = vars.get(&quot;sid&quot;).split(&quot;@&quot;)[1];
+System.out.println(to);
+String uid = vars.get(&quot;uid&quot;);
+String password = vars.get(&quot;password&quot;);
+String xml = &quot;&lt;body rid=\&quot;3\&quot; count=\&quot;1\&quot; wait=\&quot;2\&quot; sid=\&quot;#REPLACESID#\&quot;&gt; &lt;iq to=\&quot;#REPLACETO#\&quot; id=\&quot;a5ace8555018503\&quot; type=\&quot;get\&quot;&gt; &lt;query xmlns=\&quot;http://jabber.com/features/iq-query/jabber:iq:auth\&quot;&gt; &lt;uid&gt;#REPLACEUID#&lt;/uid&gt; &lt;password&gt;#REPLACEPWD#&lt;/password&gt; &lt;resource&gt;android-2.1-pet&lt;/resource&gt; &lt;platform version=\&quot;6.0\&quot;&gt;android&lt;/platform&gt; &lt;product soft=\&quot;5.197\&quot; micro=\&quot;5\&quot;&gt;android-vivo-wallpaper&lt;/product&gt; &lt;plugin&gt; &lt;item protocol=\&quot;com.vlife.plugin.module\&quot; version=\&quot;811\&quot; /&gt; &lt;item protocol=\&quot;com.vlife.plugin.card.andro\&quot; version=\&quot;110\&quot; /&gt; &lt;item protocol=\&quot;com.vlife.plugin.card.engine\&quot; version=\&quot;110\&quot; /&gt; &lt;/plugin&gt; &lt;plugin_version&gt;110&lt;/plugin_version&gt; &lt;promotion&gt;1506&lt;/promotion&gt; &lt;imei&gt;864288039090358&lt;/imei&gt; &lt;android_id&gt;2240f6de5b66be9a&lt;/android_id&gt; &lt;mnc&gt;01&lt;/mnc&gt; &lt;mcc&gt;460&lt;/mcc&gt; &lt;timezone&gt;Asia/Shanghai&lt;/timezone&gt; &lt;language&gt;zh_CN&lt;/language&gt; &lt;protocol&gt;com.vlife.vivo.wallpaper&lt;/protocol&gt; &lt;paper_id&gt;465&lt;/paper_id&gt; &lt;network_type&gt;0&lt;/network_type&gt; &lt;screen_width&gt;720&lt;/screen_width&gt; &lt;screen_height&gt;1280&lt;/screen_height&gt; &lt;lockscreen_id&gt;465&lt;/lockscreen_id&gt; &lt;wallpaper_id&gt;0&lt;/wallpaper_id&gt; &lt;background&gt;true&lt;/background&gt; &lt;mac&gt;unknown&lt;/mac&gt; &lt;device&gt;PD1612&lt;/device&gt; &lt;brand&gt;vivo&lt;/brand&gt; &lt;board&gt;unknown&lt;/board&gt; &lt;display&gt;MRA58K release-keys&lt;/display&gt; &lt;system_id&gt;MRA58K&lt;/system_id&gt; &lt;incremental&gt;1496670961&lt;/incremental&gt; &lt;manufacturer&gt;vivo&lt;/manufacturer&gt; &lt;model&gt;vivo Y67&lt;/model&gt; &lt;system_product&gt;PD1612&lt;/system_product&gt; &lt;release&gt;6.0&lt;/release&gt; &lt;sdk_int&gt;23&lt;/sdk_int&gt; &lt;user&gt;compiler&lt;/user&gt; &lt;finger_print&gt;vivo/PD1612/PD1612:6.0/MRA58K/1496670961:user/release-keys&lt;/finger_print&gt; &lt;manufacturer&gt;vivo&lt;/manufacturer&gt; &lt;tags&gt;release-keys&lt;/tags&gt; &lt;type&gt;user&lt;/type&gt; &lt;serial&gt;AAYTBAN799999999&lt;/serial&gt; &lt;elapsed_realtime&gt;127869913&lt;/elapsed_realtime&gt; &lt;apk_path&gt;/system/app/VLife_vivo/VLife_vivo.apk&lt;/apk_path&gt; &lt;bssid&gt;00:00:00:00:00:00&lt;/bssid&gt; &lt;ssid&gt;&amp;lt;unknown ssid&amp;gt;&lt;/ssid&gt; &lt;network_operator_name&gt;CHN-UNICOM&lt;/network_operator_name&gt; &lt;sim_operator&gt;46007&lt;/sim_operator&gt; &lt;sim_state&gt;5&lt;/sim_state&gt; &lt;display_metrics&gt;DisplayMetrics{density=2.0, width=720, height=1280, scaledDensity=2.0, xdpi=268.941, ydpi=268.694}&lt;/display_metrics&gt; &lt;/query&gt; &lt;/iq&gt; &lt;/body&gt;&quot;;
+
+String newxml = xml.replace(&quot;#REPLACESID#&quot;,sid);
+newxml = newxml.replace(&quot;#REPLACETO#&quot;,to);
+newxml = newxml.replace(&quot;#REPLACEUID#&quot;,uid);
+newxml = newxml.replace(&quot;#REPLACEPWD#&quot;,password);
+System.out.println(newxml);
+
+byte[] body = new GZipCoder().encode2(newxml);
+System.out.println(body);
+
+sampler.getArguments().getArgument(0).setValue(new String(body, 0));
+</stringProp>
+            </BeanShellPreProcessor>
+            <hashTree/>
+            <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="Verify JID" enabled="true">
+              <stringProp name="BeanShellAssertion.query">import jmeter_extlib.GZipCoder;
+import jmeter_extlib.ExtLibrary;
+
+String jid = &quot;&quot;;
+String status_code = prev.getResponseCode();
+//System.out.println(status_code);
+
+
+byte[] bodyArray = prev.getResponseData();
+String bodyString = new GZipCoder().decode2(bodyArray);
+System.out.println(bodyString);
+
+jid = new ExtLibrary().domFromString(bodyString,&quot;jid&quot;,&quot;&quot;);
+System.out.println(jid);
+
+
+
+if (jid.length() == 0)
+{                       
+	Failure = true;
+	FailureMessage = &quot;Jid value is empty&quot;;
+}</stringProp>
+              <stringProp name="BeanShellAssertion.filename"></stringProp>
+              <stringProp name="BeanShellAssertion.parameters"></stringProp>
+              <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+            </BeanShellAssertion>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get magazine source(SimpleMagazineSourceTypeListProtocol)" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value"></stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">?p=${Platform}&amp;v=${FrontendVer}&amp;c=g&amp;st=${TimeStamp}&amp;sv=${APKVer}&amp;az=${ProductName}&amp;sid=${sid}</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="Set parameter values" enabled="true">
+              <boolProp name="resetInterpreter">false</boolProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="script">//zip body
+import jmeter_extlib.GZipCoder;
+String xml = &quot;&lt;body rid=\&quot;4\&quot; count=\&quot;1\&quot; wait=\&quot;2\&quot; sid=\&quot;#REPLACESID#\&quot;&gt; &lt;iq to=\&quot;magazine.vlife.com\&quot; id=\&quot;5e46b6100283868\&quot; type=\&quot;get\&quot;&gt; &lt;query xmlns=\&quot;jabber:iq:magazine\&quot;&gt; &lt;method name=\&quot;simple:magazine:source:type:list\&quot;&gt; &lt;beans xmlns=\&quot;http://www.handpet.com/config/beans\&quot; version=\&quot;1.0\&quot;&gt; &lt;bean name=\&quot;simple_magazine_source_type_list_protocol\&quot;&gt; &lt;property name=\&quot;st\&quot; value=\&quot;1,1474874692631;2,1474874649479;3,1474874729357;4,1481858169860;5,1496655764434;6,1504601395208;7,1461140227146;8,1487057652730;9,1487058107179;10,1488358390895;11,1487058437727;12,1487058722433;13,1487058815855;\&quot; /&gt; &lt;/bean&gt; &lt;/beans&gt; &lt;/method&gt; &lt;/query&gt; &lt;/iq&gt;&lt;/body&gt;&quot;;
+String sid = vars.get(&quot;sid&quot;);
+String newxml = xml.replace(&quot;#REPLACESID#&quot;,sid);
+byte[] body = new GZipCoder().encode2(newxml);
+sampler.getArguments().getArgument(0).setValue(new String(body, 0));
+</stringProp>
+            </BeanShellPreProcessor>
+            <hashTree/>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="49592">206</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">8</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+            <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="Verify content" enabled="true">
+              <stringProp name="BeanShellAssertion.query">import jmeter_extlib.GZipCoder;
+import jmeter_extlib.ExtLibrary;
+
+
+String status_code = prev.getResponseCode();
+//System.out.println(status_code);
+
+
+byte[] bodyArray = prev.getResponseData();
+String bodyString = new GZipCoder().decode2(bodyArray);
+System.out.println(bodyString);
+
+String uid = new ExtLibrary().domFromString(bodyString,&quot;uid&quot;,&quot;&quot;);
+</stringProp>
+              <stringProp name="BeanShellAssertion.filename"></stringProp>
+              <stringProp name="BeanShellAssertion.parameters"></stringProp>
+              <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+            </BeanShellAssertion>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get magazine content(SimpleMagazineContentListBySourceProtocol)" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value"></stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">?p=${Platform}&amp;v=${FrontendVer}&amp;c=g&amp;st=${TimeStamp}&amp;sv=${APKVer}&amp;az=${ProductName}&amp;sid=${sid}</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="Set parameter values" enabled="true">
+              <boolProp name="resetInterpreter">false</boolProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="script">//zip body
+import jmeter_extlib.GZipCoder;
+String xml = &quot;&lt;body rid=\&quot;5\&quot; count=\&quot;1\&quot; wait=\&quot;2\&quot; sid=\&quot;#REPLACESID#\&quot;&gt;&lt;iq from=\&quot;3213683121551791@123-minor-a1.vlife.com/android-2.1-pet\&quot; to=\&quot;magazine.vlife.com\&quot; id=\&quot;b923f5023307c5d\&quot; sid=\&quot;be387f1810489d7a@123-minor-a1.vlife.com\&quot; type=\&quot;get\&quot;&gt; &lt;query xmlns=\&quot;jabber:iq:magazine\&quot;&gt; &lt;method name=\&quot;simple:magazine:content:list:by:source\&quot;&gt; &lt;beans xmlns=\&quot;http://www.handpet.com/config/beans\&quot; version=\&quot;1.0\&quot;&gt; &lt;bean name=\&quot;simple_magazine_content_list_by_source_protocol\&quot;&gt; &lt;property name=\&quot;st\&quot; value=\&quot;1504614690140\&quot; /&gt; &lt;property name=\&quot;mn\&quot; value=\&quot;0\&quot; /&gt; &lt;property name=\&quot;sl\&quot;&gt; &lt;list&gt; &lt;value&gt;25&lt;/value&gt; &lt;value&gt;26&lt;/value&gt; &lt;value&gt;27&lt;/value&gt; &lt;value&gt;28&lt;/value&gt; &lt;value&gt;29&lt;/value&gt; &lt;value&gt;30&lt;/value&gt; &lt;/list&gt; &lt;/property&gt; &lt;/bean&gt; &lt;/beans&gt; &lt;/method&gt; &lt;/query&gt; &lt;/iq&gt;&lt;/body&gt;&quot;;
+
+String sid = vars.get(&quot;sid&quot;);
+String newxml = xml.replace(&quot;#REPLACESID#&quot;,sid);
+byte[] body = new GZipCoder().encode2(newxml);
+sampler.getArguments().getArgument(0).setValue(new String(body, 0));
+</stringProp>
+            </BeanShellPreProcessor>
+            <hashTree/>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="49592">206</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">8</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+            <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="Verify content" enabled="true">
+              <stringProp name="BeanShellAssertion.query">import jmeter_extlib.GZipCoder;
+import jmeter_extlib.ExtLibrary;
+
+
+String status_code = prev.getResponseCode();
+//System.out.println(status_code);
+
+
+byte[] bodyArray = prev.getResponseData();
+String bodyString = new GZipCoder().decode2(bodyArray);
+System.out.println(bodyString);
+
+String uid = new ExtLibrary().domFromString(bodyString,&quot;uid&quot;,&quot;&quot;);
+</stringProp>
+              <stringProp name="BeanShellAssertion.filename"></stringProp>
+              <stringProp name="BeanShellAssertion.parameters"></stringProp>
+              <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+            </BeanShellAssertion>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get content from ID(SimpleQueryMagazineContentListBySourceProtocol)" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value"></stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">?p=${Platform}&amp;v=${FrontendVer}&amp;c=g&amp;st=${TimeStamp}&amp;sv=${APKVer}&amp;az=${ProductName}&amp;sid=${sid}</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="Set parameter values" enabled="true">
+              <boolProp name="resetInterpreter">false</boolProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="script">//zip body
+import jmeter_extlib.GZipCoder;
+String xml = &quot;&lt;body rid=\&quot;6\&quot; count=\&quot;1\&quot; wait=\&quot;2\&quot; sid=\&quot;#REPLACESID#\&quot;&gt;&lt;iq from=\&quot;3846589247236301@123-minor-a1.vlife.com/android-2.1-pet\&quot; to=\&quot;magazine.vlife.com\&quot; id=\&quot;a1440228e7f1014\&quot; sid=\&quot;be387f18104a577d@123-minor-a1.vlife.com\&quot; type=\&quot;get\&quot;&gt; &lt;query xmlns=\&quot;jabber:iq:magazine\&quot;&gt; &lt;method name=\&quot;simple:query:magazine:content:list:by:source\&quot;&gt; &lt;beans xmlns=\&quot;http://www.handpet.com/config/beans\&quot; version=\&quot;1.0\&quot;&gt; &lt;bean name=\&quot;simple_query_magazine_content_list_by_source_protocol\&quot;&gt; &lt;property name=\&quot;page\&quot; value=\&quot;1\&quot; /&gt; &lt;property name=\&quot;source_id\&quot; value=\&quot;39\&quot; /&gt; &lt;/bean&gt; &lt;/beans&gt; &lt;/method&gt; &lt;/query&gt; &lt;/iq&gt;&lt;/body&gt;&quot;;
+
+String sid = vars.get(&quot;sid&quot;);
+String newxml = xml.replace(&quot;#REPLACESID#&quot;,sid);
+byte[] body = new GZipCoder().encode2(newxml);
+sampler.getArguments().getArgument(0).setValue(new String(body, 0));
+</stringProp>
+            </BeanShellPreProcessor>
+            <hashTree/>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="49592">206</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">8</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+            <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="Verify content" enabled="true">
+              <stringProp name="BeanShellAssertion.query">import jmeter_extlib.GZipCoder;
+import jmeter_extlib.ExtLibrary;
+
+
+String status_code = prev.getResponseCode();
+//System.out.println(status_code);
+
+
+byte[] bodyArray = prev.getResponseData();
+String bodyString = new GZipCoder().decode2(bodyArray);
+System.out.println(bodyString);
+
+String uid = new ExtLibrary().domFromString(bodyString,&quot;uid&quot;,&quot;&quot;);
+</stringProp>
+              <stringProp name="BeanShellAssertion.filename"></stringProp>
+              <stringProp name="BeanShellAssertion.parameters"></stringProp>
+              <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+            </BeanShellAssertion>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+      </hashTree>
+    </hashTree>
+    <WorkBench guiclass="WorkBenchGui" testclass="WorkBench" testname="工作台" enabled="true">
+      <boolProp name="WorkBench.save">true</boolProp>
+    </WorkBench>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>
