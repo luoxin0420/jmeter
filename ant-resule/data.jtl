@@ -1,0 +1,2128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1001" it="0" lt="1000" ct="925" ts="1526639057360" s="false" lb="band_check请求-485302010000023f20180504164736" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="425" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>band_check响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:44 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=d6872fb2-4c11-43a3-bfe7-2131a0206e23;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 50
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180504164736&quot;&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/bind_check</java.net.URL>
+</httpSample>
+<httpSample t="62" it="0" lt="62" ct="0" ts="1526639058575" s="false" lb="data_info请求-485302010000023f20180504164736-JKB" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="443" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:44 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=1d92c6a0-ca58-4e36-9e54-53c23c3361fb;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 69
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180504164736&quot;,&#xd;
+	&quot;type&quot;:&quot;JKB&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="56" ct="0" ts="1526639058639" s="false" lb="data_info请求-485302010000023f20180504164736-JKB" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="443" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:44 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=2067a011-58d5-44df-affa-f285c44d5efd;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 69
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180504164736&quot;,&#xd;
+	&quot;type&quot;:&quot;JKB&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="54" it="0" lt="54" ct="0" ts="1526639058697" s="false" lb="data_info请求-485302010000023f20180504164736-XYJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="443" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:44 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=66a530c5-bcb3-4401-bb4f-20062401b4b1;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 69
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180504164736&quot;,&#xd;
+	&quot;type&quot;:&quot;XYJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="53" ct="0" ts="1526639058753" s="false" lb="data_info请求-485302010000023f20180504164736-XTJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="443" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:44 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=6ae3906e-0191-4a30-908d-31edb39992a8;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 69
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180504164736&quot;,&#xd;
+	&quot;type&quot;:&quot;XTJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="55" it="0" lt="55" ct="0" ts="1526639058809" s="false" lb="data_info请求-485302010000023f20180504164736-" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="440" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:44 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=91a1a9f2-ed18-4f29-b070-fb7d7a6cc61c;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 66
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180504164736&quot;,&#xd;
+	&quot;type&quot;:&quot;&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="53" ct="0" ts="1526639058874" s="false" lb="data_info请求-485302010000023f20180504164736-XXJ－${member}" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="443" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:45 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=0fca8801-c008-4b02-bb0e-f3d3321b36dc;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 69
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180504164736&quot;,&#xd;
+	&quot;type&quot;:&quot;XXJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="56" ct="0" ts="1526639058929" s="false" lb="band_check请求-485302010000023f2018050418" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="421" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>band_check响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:45 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=d4a99e23-334b-4450-bc81-fe44e6e9b981;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 46
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f2018050418&quot;&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/bind_check</java.net.URL>
+</httpSample>
+<httpSample t="80" it="0" lt="80" ct="0" ts="1526639058993" s="false" lb="data_info请求-485302010000023f2018050418-JKB" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="439" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:45 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=ef83b18d-a98b-4bf7-8fcb-a84b0f4a1fee;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 65
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f2018050418&quot;,&#xd;
+	&quot;type&quot;:&quot;JKB&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="54" it="0" lt="54" ct="0" ts="1526639059075" s="false" lb="data_info请求-485302010000023f2018050418-XYJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="439" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:45 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=f400c0d1-6499-4d3c-8ef5-94e53eb123ee;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 65
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f2018050418&quot;,&#xd;
+	&quot;type&quot;:&quot;XYJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="53" ct="0" ts="1526639059131" s="false" lb="data_info请求-485302010000023f2018050418-XTJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="439" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:45 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=1c0c5d89-2d00-486d-bece-b54ead53b814;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 65
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f2018050418&quot;,&#xd;
+	&quot;type&quot;:&quot;XTJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="55" it="0" lt="55" ct="0" ts="1526639059188" s="false" lb="data_info请求-485302010000023f2018050418-" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="436" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:45 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=5f4b5c57-eb03-4cbb-b63d-9223277be1dd;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 62
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f2018050418&quot;,&#xd;
+	&quot;type&quot;:&quot;&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="56" ct="0" ts="1526639059248" s="false" lb="data_info请求-485302010000023f2018050418-XXJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="439" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:45 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=c804167d-42e3-4c9e-a9c1-3f9c6f0a30a6;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 65
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f2018050418&quot;,&#xd;
+	&quot;type&quot;:&quot;XXJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="55" it="0" lt="55" ct="0" ts="1526639059310" s="false" lb="data_info请求-485302010000023f2018050418-JKB－${member}" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="439" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:45 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=25c9624b-085e-4f45-befa-37f2df7e09e0;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 65
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f2018050418&quot;,&#xd;
+	&quot;type&quot;:&quot;JKB&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="61" it="0" lt="61" ct="0" ts="1526639059366" s="false" lb="band_check请求-11" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="397" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>band_check响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:45 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=87ac860b-7abf-4ba3-98dd-a5c625d02fba;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 22
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;11&quot;&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/bind_check</java.net.URL>
+</httpSample>
+<httpSample t="326" it="0" lt="325" ct="251" ts="1526639059434" s="false" lb="data_info请求-11-XYJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="415" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:45 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=68fea1a5-2a5e-47e1-8751-61e5f177279d;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 41
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;11&quot;,&#xd;
+	&quot;type&quot;:&quot;XYJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="56" ct="0" ts="1526639059764" s="false" lb="data_info请求-11-XTJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="415" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:45 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=1c347ee2-2361-4908-b796-c48cc028eea0;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 41
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;11&quot;,&#xd;
+	&quot;type&quot;:&quot;XTJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="59" it="0" lt="58" ct="0" ts="1526639059822" s="false" lb="data_info请求-11-" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="412" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=1cea1b82-7588-4be6-850b-d7ca3044bc16;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 38
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;11&quot;,&#xd;
+	&quot;type&quot;:&quot;&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="56" ct="0" ts="1526639059883" s="false" lb="data_info请求-11-XXJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="415" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=1ff8e85c-77a3-4e7c-9eaa-f30739ed5ed8;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 41
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;11&quot;,&#xd;
+	&quot;type&quot;:&quot;XXJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="58" ct="0" ts="1526639059941" s="false" lb="data_info请求-11-JKB" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="415" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=07c0610e-35d5-4a68-ae95-d11c9fdea416;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 41
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;11&quot;,&#xd;
+	&quot;type&quot;:&quot;JKB&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="72" it="0" lt="72" ct="0" ts="1526639060016" s="false" lb="data_info请求-11-JKB－${member}" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="415" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=1dd6e766-e59f-4aa2-92bc-63d736e79e67;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 41
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;11&quot;,&#xd;
+	&quot;type&quot;:&quot;JKB&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="59" it="0" lt="59" ct="0" ts="1526639060089" s="false" lb="band_check请求-485302010000023f20180509111549" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="425" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>band_check响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=cbb62583-0e43-4cd7-bd2a-7f83703da25a;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 50
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180509111549&quot;&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/bind_check</java.net.URL>
+</httpSample>
+<httpSample t="61" it="0" lt="61" ct="0" ts="1526639060157" s="false" lb="data_info请求-485302010000023f20180509111549-XYJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="443" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=ce3f4779-ff50-44c6-beac-701b3a1215e0;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 69
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180509111549&quot;,&#xd;
+	&quot;type&quot;:&quot;XYJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="65" it="0" lt="65" ct="0" ts="1526639060220" s="false" lb="data_info请求-485302010000023f20180509111549-XTJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="443" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=7b0b5475-a4b7-4d3f-8aff-79cd80de0040;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 69
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180509111549&quot;,&#xd;
+	&quot;type&quot;:&quot;XTJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="58" ct="0" ts="1526639060286" s="false" lb="data_info请求-485302010000023f20180509111549-" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="440" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=89d8b5fb-c5b2-4c03-893f-a70e6e3828fc;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 66
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180509111549&quot;,&#xd;
+	&quot;type&quot;:&quot;&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="65" it="0" lt="65" ct="0" ts="1526639060345" s="false" lb="data_info请求-485302010000023f20180509111549-XXJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="443" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=39b24b4f-7c74-405e-9f9c-f21e120f33e1;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 69
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180509111549&quot;,&#xd;
+	&quot;type&quot;:&quot;XXJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="74" it="0" lt="74" ct="0" ts="1526639060412" s="false" lb="data_info请求-485302010000023f20180509111549-JKB" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="443" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=81b17cbe-a5ef-42d9-a1b0-3c8c522a7537;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 69
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180509111549&quot;,&#xd;
+	&quot;type&quot;:&quot;JKB&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="65" it="0" lt="65" ct="0" ts="1526639060511" s="false" lb="data_info请求-485302010000023f20180509111549-XYJ－${member}" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="443" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=8bb3ddca-e76f-4d4d-83b0-e96d6ccf8f64;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 69
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180509111549&quot;,&#xd;
+	&quot;type&quot;:&quot;XYJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="69" it="0" lt="69" ct="0" ts="1526639060579" s="false" lb="band_check请求-485302010000023f20180504184727" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="425" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>band_check响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=622213c7-cf20-47a9-84e6-f8d6285bc159;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 50
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180504184727&quot;&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/bind_check</java.net.URL>
+</httpSample>
+<httpSample t="59" it="0" lt="59" ct="0" ts="1526639060654" s="false" lb="data_info请求-485302010000023f20180504184727-XTJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="443" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=3ac9780d-6bb3-47c9-8e59-8c6dd9bb39a0;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 69
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180504184727&quot;,&#xd;
+	&quot;type&quot;:&quot;XTJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="58" ct="0" ts="1526639060714" s="false" lb="data_info请求-485302010000023f20180504184727-" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="440" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=d62ee13d-0c2c-491a-a48c-44f681d9cf6e;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 66
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180504184727&quot;,&#xd;
+	&quot;type&quot;:&quot;&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="59" it="0" lt="59" ct="0" ts="1526639060773" s="false" lb="data_info请求-485302010000023f20180504184727-XXJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="443" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=aeafda61-311d-49e5-a67c-b00d2f9c85f9;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 69
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180504184727&quot;,&#xd;
+	&quot;type&quot;:&quot;XXJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="60" it="0" lt="60" ct="0" ts="1526639060834" s="false" lb="data_info请求-485302010000023f20180504184727-JKB" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="443" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=4fc00b15-8429-4873-821f-2aff9103ac0d;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 69
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180504184727&quot;,&#xd;
+	&quot;type&quot;:&quot;JKB&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="54" it="0" lt="53" ct="0" ts="1526639060895" s="false" lb="data_info请求-485302010000023f20180504184727-XYJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="443" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=8872dd29-a6cf-41fd-bebb-dfd38cbabfd5;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 69
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180504184727&quot;,&#xd;
+	&quot;type&quot;:&quot;XYJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="58" ct="0" ts="1526639060955" s="false" lb="data_info请求-485302010000023f20180504184727-XTJ－${member}" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="443" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=14859d61-74d4-41cf-8539-bb1627128834;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 69
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f20180504184727&quot;,&#xd;
+	&quot;type&quot;:&quot;XTJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="58" ct="0" ts="1526639061014" s="false" lb="band_check请求-15" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="397" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>band_check响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=2130c218-a776-4d3c-845e-85cc2753a746;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 22
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;15&quot;&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/bind_check</java.net.URL>
+</httpSample>
+<httpSample t="63" it="0" lt="63" ct="0" ts="1526639061077" s="false" lb="data_info请求-15-" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="412" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=63d3084f-098b-4fe4-b809-cd7964127ce8;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 38
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;15&quot;,&#xd;
+	&quot;type&quot;:&quot;&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="57" it="0" lt="57" ct="0" ts="1526639061141" s="false" lb="data_info请求-15-XXJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="415" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=b46eb7b2-ce8d-4c52-8d82-608903c67e18;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 41
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;15&quot;,&#xd;
+	&quot;type&quot;:&quot;XXJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="61" it="0" lt="61" ct="0" ts="1526639061199" s="false" lb="data_info请求-15-JKB" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="415" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=8765cc53-de6f-487e-a23f-f78c3450bb16;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 41
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;15&quot;,&#xd;
+	&quot;type&quot;:&quot;JKB&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="61" it="0" lt="61" ct="0" ts="1526639061261" s="false" lb="data_info请求-15-XYJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="415" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=e0d68e25-7c78-407e-b076-c31397bbce07;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 41
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;15&quot;,&#xd;
+	&quot;type&quot;:&quot;XYJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="64" it="0" lt="64" ct="0" ts="1526639061323" s="false" lb="data_info请求-15-XTJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="415" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=7127e1ec-97ab-4138-bff4-6fb7ffdea305;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 41
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;15&quot;,&#xd;
+	&quot;type&quot;:&quot;XTJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="74" it="0" lt="74" ct="0" ts="1526639061391" s="false" lb="data_info请求-15-－${member}" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="412" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=07945386-2a2b-4e49-94a5-4ae3ac6b7dcf;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 38
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;15&quot;,&#xd;
+	&quot;type&quot;:&quot;&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="324" it="0" lt="324" ct="266" ts="1526639061466" s="false" lb="band_check请求-485302010000023f2018050418472611" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="427" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>band_check响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=a09f88aa-4cd5-4aad-bdac-4bb7173f3908;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 52
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f2018050418472611&quot;&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/bind_check</java.net.URL>
+</httpSample>
+<httpSample t="62" it="0" lt="62" ct="0" ts="1526639061799" s="false" lb="data_info请求-485302010000023f2018050418472611-XXJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="445" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=c15831cf-a28f-4718-8e76-a86697c66550;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 71
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f2018050418472611&quot;,&#xd;
+	&quot;type&quot;:&quot;XXJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="61" it="0" lt="61" ct="0" ts="1526639061862" s="false" lb="data_info请求-485302010000023f2018050418472611-JKB" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="445" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=a0e1af88-2ee2-4fb7-aa60-5f23e7b4a2ba;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 71
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f2018050418472611&quot;,&#xd;
+	&quot;type&quot;:&quot;JKB&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="59" it="0" lt="59" ct="0" ts="1526639061924" s="false" lb="data_info请求-485302010000023f2018050418472611-XYJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="445" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=19a2a4b2-327d-4c76-a758-ec3234dbc0f1;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 71
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f2018050418472611&quot;,&#xd;
+	&quot;type&quot;:&quot;XYJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="64" it="0" lt="64" ct="0" ts="1526639061984" s="false" lb="data_info请求-485302010000023f2018050418472611-XTJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="445" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=e11e9c7d-db20-40fc-b1e6-6540479bd24d;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 71
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f2018050418472611&quot;,&#xd;
+	&quot;type&quot;:&quot;XTJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="56" ct="0" ts="1526639062049" s="false" lb="data_info请求-485302010000023f2018050418472611-" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="442" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=8630aad6-79f8-4c98-aef8-070ff6fb0ae4;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 68
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f2018050418472611&quot;,&#xd;
+	&quot;type&quot;:&quot;&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="62" it="0" lt="62" ct="0" ts="1526639062110" s="false" lb="data_info请求-485302010000023f2018050418472611-XXJ－${member}" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="445" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=b6f9a91a-a178-4515-9e09-e8564bc6f3b0;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 71
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;485302010000023f2018050418472611&quot;,&#xd;
+	&quot;type&quot;:&quot;XXJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="57" it="0" lt="57" ct="0" ts="1526639062173" s="false" lb="band_check请求-22" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="397" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>band_check响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=590d737b-0a46-459f-87a4-7b66856d5216;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 22
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;22&quot;&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/bind_check</java.net.URL>
+</httpSample>
+<httpSample t="57" it="0" lt="57" ct="0" ts="1526639062237" s="false" lb="data_info请求-22-JKB" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="415" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=53b33e23-033f-45db-b538-5e5583fe4ff8;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 41
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;22&quot;,&#xd;
+	&quot;type&quot;:&quot;JKB&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="56" ct="0" ts="1526639062296" s="false" lb="data_info请求-22-XYJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="415" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=a7bfb906-7048-43cf-af9d-8c11dc8e1ff3;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 41
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;22&quot;,&#xd;
+	&quot;type&quot;:&quot;XYJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="74" it="0" lt="74" ct="0" ts="1526639062353" s="false" lb="data_info请求-22-XTJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="415" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=5b9eb389-0f02-40c8-97d5-dcf3bcf23a81;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 41
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;22&quot;,&#xd;
+	&quot;type&quot;:&quot;XTJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="70" it="0" lt="70" ct="0" ts="1526639062428" s="false" lb="data_info请求-22-" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="412" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /-1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=fcbea673-90f9-4de9-875d-f1dc20378b3f;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 38
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;22&quot;,&#xd;
+	&quot;type&quot;:&quot;&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="63" it="0" lt="62" ct="0" ts="1526639062499" s="false" lb="data_info请求-22-XXJ" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="415" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=d59ea065-8272-451d-adf3-cbbec3de6bd0;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 41
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;22&quot;,&#xd;
+	&quot;type&quot;:&quot;XXJ&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="61" it="0" lt="61" ct="0" ts="1526639062566" s="false" lb="data_info请求-22-&lt;EOF&gt;－${member}" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="417" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;EOF&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=9e2e27c5-4d0e-4d63-92c7-194e35e1e5b0;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 43
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;22&quot;,&#xd;
+	&quot;type&quot;:&quot;&lt;EOF&gt;&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="62" it="0" lt="62" ct="0" ts="1526639062629" s="false" lb="band_check请求-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="396" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>band_check响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /1/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=00646a29-858e-40e5-9263-1cc775d2c38e;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 21
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;0&quot;&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/bind_check</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="56" ct="0" ts="1526639062695" s="false" lb="data_info请求-0-&lt;EOF&gt;" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="416" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;EOF&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=973e6f06-af82-47af-80dd-9c0fcf3179cf;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 42
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;0&quot;,&#xd;
+	&quot;type&quot;:&quot;&lt;EOF&gt;&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="58" ct="0" ts="1526639062753" s="false" lb="data_info请求-0-&lt;EOF&gt;" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="416" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;EOF&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=5acea436-3764-4a41-9781-9a1cf0e7f31f;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 42
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;0&quot;,&#xd;
+	&quot;type&quot;:&quot;&lt;EOF&gt;&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="57" it="0" lt="57" ct="0" ts="1526639062812" s="false" lb="data_info请求-0-&lt;EOF&gt;" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="416" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;EOF&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=5bfdbec2-2790-42e2-9afb-1f2e2478bbb4;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 42
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;0&quot;,&#xd;
+	&quot;type&quot;:&quot;&lt;EOF&gt;&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="66" it="0" lt="66" ct="0" ts="1526639062870" s="false" lb="data_info请求-0-&lt;EOF&gt;" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="416" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;EOF&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:49 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=a8c39b17-970d-4894-9e17-716a849f1e39;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 42
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;0&quot;,&#xd;
+	&quot;type&quot;:&quot;&lt;EOF&gt;&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="58" ct="0" ts="1526639062938" s="false" lb="data_info请求-0-&lt;EOF&gt;" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="416" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>data_info响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;EOF&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:49 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=45c12d43-b2b6-4ee9-ad77-4de0e405a2f2;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 42
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;0&quot;,&#xd;
+	&quot;type&quot;:&quot;&lt;EOF&gt;&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+<httpSample t="65" it="0" lt="65" ct="0" ts="1526639063000" s="false" lb="data_info请求-0-&lt;EOF&gt;－${member}" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="324" sby="416" sc="1" ec="1" ng="1" na="1" hn="USER-20170819QO">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;EOF&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 May 2018 10:20:49 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: JSESSIONID=ca51ee22-3060-496d-a809-b0f359f025ca;Path=/hipeeweb/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json 
+data_id: 485302010000023f20180504184726
+Content-Length: 42
+Host: backend.stage.hipee.cn
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_172)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;code&quot;:9,&quot;msg&quot;:&quot;session time out!&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">$Version=1; JSESSIONID=&quot;b7d96752-86d9-44f2-a152-c972459eba5d&quot;; $Path=&quot;&quot;; $Domain=&quot;backend.stage.hipee.cn/hipeeweb/mp&quot;</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+	&quot;data_id&quot;:&quot;0&quot;,&#xd;
+	&quot;type&quot;:&quot;&lt;EOF&gt;&quot;&#xd;
+	&#xd;
+	}</queryString>
+  <java.net.URL>https://backend.stage.hipee.cn/hipeeweb/mp/data/data_info</java.net.URL>
+</httpSample>
+
+</testResults>
